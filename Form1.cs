@@ -27,6 +27,7 @@ namespace Störung
                 book=Regex.Replace(File.ReadAllText(openFileDialog.FileName), @"[^0-9a-zA-Z ä ü ö ß ']", " ").Split(' ').ToList();
                 book.RemoveAll(str => string.IsNullOrEmpty(str));
                 txtBoxBook.Text = Path.GetFileName(openFileDialog.FileName).Replace(".txt","");
+                btnOpenSentence.Enabled = true;
             }
         }
         private void btnOpenSentence_Click(object sender, EventArgs e)

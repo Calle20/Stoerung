@@ -79,6 +79,7 @@
             // 
             // btnOpenSentence
             // 
+            this.btnOpenSentence.Enabled = false;
             this.btnOpenSentence.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenSentence.Location = new System.Drawing.Point(13, 54);
             this.btnOpenSentence.Name = "btnOpenSentence";
