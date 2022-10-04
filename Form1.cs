@@ -51,6 +51,7 @@ namespace Störung
                         if (sentenceCount == sentence.Count)
                         {
                             foundedSentences.Add(string.Join(" ",tempSentence));
+                            i--;
                             break;
                         }
                     }
